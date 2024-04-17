@@ -68,13 +68,50 @@
       </div>
     </main>
     <hr>
-    <p><b>Notes:</b><br><br>Kuromi can't make it to the next meeting</p>
+    <p><b>Notes:</b><br><br>Kuromi can't make it to the next meeting<br><br>Some clips of what some of us did:</p>
     <video width="640" height="480" controls autoplay muted loop>
       <source src="pompom.mp4" type="video/mp4">
     </video>
+    <p>Our background music:</p>
     <audio controls> 
       <source src="Rex Orange County - Sunflower [TubeRipper.cc].mp3" type="audio/mp3">
     </audio>
+    <hr>
+    <p>Form:</p>
+    <form action="Information About You" method="post">
+      <fieldset>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="check">Are you a robot?</label>
+        <input type="checkbox" id="check" name="check" value="yes"><br><br>
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+          <option value="Chrome">
+          <option value="Firefox">
+          <option value="Safari">
+          <option value="Edge">
+          <option value="Opera">
+        </datalist><br><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+      </fieldset>
+    <hr>
     <footer> 
       <p><i><strong>Next Meeting: 4/22/2024</strong></i></p>
     </footer>
