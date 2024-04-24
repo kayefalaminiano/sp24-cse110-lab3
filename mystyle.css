@@ -1,1 +1,6 @@
+/*My style sheet */
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(250, 248, 192)
+}
