@@ -1,9 +1,11 @@
 /*My style sheet */
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: rgb(250, 248, 192)
-  color: #000
+  font-family: 'Bubblegum Sans', cursive;
+  background-color: rgb(250, 248, 192);
+  margin 0;
+  padding: 20px;
+  color: #000;
 }
 
 
